@@ -1,0 +1,27 @@
+.level1{
+  height: 400px;
+  width:100%;
+}
+
+.level2{
+  height: 400px;
+  width: 100%;
+}
+
+#guider, #tipscontainer{
+margin:10px 10px 10px 10px;
+float : left;
+}
+
+#hotinfo{
+}
+
+#tipscontainder{
+}
+
+
+#guider{
+width:600px;
+height: 300px;
+background-color: yellow;
+}

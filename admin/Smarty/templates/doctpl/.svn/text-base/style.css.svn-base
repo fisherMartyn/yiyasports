@@ -1,0 +1,29 @@
+.header{
+	background-color:#F0F8FF;
+        height:29px;
+  	border-bottom:solid 1px #E7E7E7;
+        padding:0px 20px 0px 20px;
+}
+.header ul {
+        text-align:left;
+	width:900px;
+}
+.header ul li{
+        float:left;
+        }
+#content{
+        padding:0px 20px 0px 20px;
+}
+
+#content ul {
+	text-align:left;
+	width:900px;
+}
+#content ul li{
+	float:left;
+	}
+
+*{
+        line-height:29px;
+        font-size:16px;
+}

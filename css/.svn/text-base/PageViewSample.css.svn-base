@@ -1,0 +1,48 @@
+.pagination{
+  font-family: Tahoma;
+  overflow: hidden; 
+  margin-top:15px; 
+  text-align: center;
+}
+
+.pagination-tab { 
+  margin-bottom: 20px;
+}
+.pagination a, .pagination .page-cur,  .pagination .page-prev, .pagination .page-next,  .pagination .page-break, .pagination .page-skip {
+    display: inline-block;
+    font-family: Tahoma,SimSun,Arial;
+    height: 22px;
+    line-height:22px; 
+    margin: 0; 
+    min-width: 16px;
+    padding: 0 3px 0 3px; 
+    text-align: center; 
+    vertical-align: top; 
+    white-space: nowrap;
+}
+.pagination a, .pagination .page-prev, .pagination .page-next,  .pagination .page-cur, .pagination .page-break {
+    border: 1px solid #E7E7E7; 
+    color:black; 
+    font-weight:normal;
+    cursor:pointer;
+    margin:0 2px 0 2px;
+}
+.pagination a:hover {
+    border: 1px solid black;
+    text-decoration: none; 
+    color:black; 
+    font-weight:bold;
+    cursor:pointer;
+    background-color: #E7E7E7; 
+}
+.pagination .page-cur {
+    background-color: #E7E7E7; 
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+.pagination .page-break {
+    border: medium none; 
+    color:black;
+    background:none transparent;
+} 

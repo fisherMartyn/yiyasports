@@ -1,0 +1,57 @@
+#hotinfo{
+width:1000px;
+height:400px;
+margin-top:20px;
+}
+
+#hotinfo li, #hotinfo ul{
+display:inline;
+}
+.slider-viewport, #hotinfo-box{
+width: 650px;
+height:350px;
+z-index:1;
+cursor:pointer;
+margin:0 auto 0 auto;
+
+}
+
+.slider-viewport {
+overflow:hidden;
+}
+
+#hotinfo-box img{
+  z-index:1;
+}
+
+.hotinfocap{
+  position:relative;
+  line-height:24px;
+  z-index: 2;
+  padding-left:10px;
+  display:none;
+  background-image: url('images/alpha70.png');
+  cursor:pointer;
+}
+
+#hotinfopre, #hotinfonext{
+  width:19px;
+  height:30px;
+  background-repeat: no-repeat;
+  cursor:pointer;
+}
+#hotinfopre{
+  float:left;
+  background-image: url('images/hotinfopre.png');
+}
+
+#hotinfonext{
+  float:right;
+  background-image: url('images/hotinfonext.png');
+}
+#footer{
+  width:200px;
+  margin: 0 auto 0 auto;
+  z-index:3;
+  position: relative;
+}

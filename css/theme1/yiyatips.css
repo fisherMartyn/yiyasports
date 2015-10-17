@@ -1,0 +1,52 @@
+.tipsholder a {
+        font-size: 12px;
+        cursor: pointer;
+        margin: 0 5px;
+        color: #333;
+}
+
+.tipsholder a:hover {
+        background-color: #222;
+        color: #fff;
+}
+
+.tipsholder a.jp-previous { margin-right: 15px; }
+.tipsholder a.jp-next { margin-left: 15px; }
+
+
+.tipsholder a.jp-disabled, a.jp-disabled:hover {
+        color: #bbb;
+}
+
+.tipsholder a.jp-disabled, a.jp-disabled:hover {
+        cursor: default;
+        background: none;
+}
+
+.tipsholder span { 
+display:none;
+}
+
+.tipsholder, #yiyatips{
+  width:200px;
+
+}
+
+#yiyatips{
+  height: 120px;
+  line-height: 20px;
+  padding: 4px 4px;
+  
+}
+
+
+
+#tipscontainer{
+  width:270px;
+  height:174px;
+  background-image: url('images/bg7.png');
+  border:solid 1px #cccccc;
+  background-repeat:no-repeat;
+}
+
+

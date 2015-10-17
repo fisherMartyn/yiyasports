@@ -1,0 +1,30 @@
+#SU_list{
+  border-collapse:collapse;
+  border:3px solid #E7E7E7;
+  width:900px;
+}
+
+#SU_list th{
+
+border:1px solid #E7E7E7;
+padding:3px 7px 2px 7px;
+border-bottom:3px solid #E7E7E7;
+}
+
+#SU_list td{
+
+border:1px solid #E7E7E7;
+padding:3px 7px 2px 7px;
+
+}
+.SU_items{
+cursor:pointer;
+}
+
+.SU_items:hover
+{
+background-color:#F0F8FF;
+}
+
+
+

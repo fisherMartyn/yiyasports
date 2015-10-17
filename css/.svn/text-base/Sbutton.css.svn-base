@@ -1,0 +1,11 @@
+.Sbutton{
+  padding:3px 3px 3px 3px;
+  border:1px solid black;
+  cursor:pointer;
+  background-color:#E7E7E7;
+}
+
+.Sbutton:hover
+{
+  background-color:#F5F5DC;
+}

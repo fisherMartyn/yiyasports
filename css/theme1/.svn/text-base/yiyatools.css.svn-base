@@ -1,0 +1,43 @@
+#yiyatools, #calorym,#proteinm, #caloryt, #proteint{
+   width:150px;
+   text-align:center; 
+
+  line-height:20px;
+
+}
+
+#yiyatools{
+  position:absolute;
+  right:0;
+  border:1px solid #cccccc;
+  font-size:14px;
+  z-index:20;
+}
+
+
+
+#calorym,#proteinm{
+  padding-top:5px;
+  height:90px;
+  background-image:url('images/alpha70.png')
+}
+
+#calorym input[type='text'],#proteinm input[type='text']{
+  width:80px;
+  padding:0 20px 0 5px;
+}
+#caloryt,#proteint{
+  cursor:pointer;
+  border-top:1px solid #cccccc;
+}
+
+#caloryt{
+  background-image:url('images/headbg2.png');
+  border-bottom:1px solid #cccccc;
+}
+
+#proteint{
+  background-image:url('images/headbg3.png');
+}
+
+

@@ -1,0 +1,31 @@
+.interactArea{margin-bottom:15px;}
+.interactArea .fns{z-index:3;position:relative;height:30px;padding-right:1px;_padding-right:2px;}
+.interactArea .fn{*zoom:1;_position:relative;overflow:hidden;float:left;height:28px;padding:1px;line-height:28px;_line-height:29px;margin-right:-1px;margin-right:4px;}
+.interactArea .fn *{line-height:28px;_line-height:29px;cursor:pointer;}
+.interactArea .fn_hover{background:#e8ecf2 url(./ydyimg/bg_fn.png) repeat-x 0 0;border:1px solid #c9c9c9;padding:0;}
+.interactArea .fn_expand{background:#e3e6e8 url(./ydyimg/bg_fn.png) repeat-x 0 0;border:1px solid #c9c9c9;padding:0;}
+.interactArea .fn_return,
+.interactArea .fn_return *{cursor:default;}
+.interactArea .fn_disabled,
+.interactArea .fn_disabled *{color:#909090;cursor:default;} 
+.interactArea .fn a,
+.interactArea .fn span{float:left;display:block;height:28px;padding:0 7px;}
+.interactArea .fn a:hover{_position:relative;background:#e3e6e8 url(./ydyimg/bg_fn.png) repeat-x 0 -30px;border:1px solid #c9c9c9;border-width:0 1px;margin:0 -1px;text-decoration:none;}
+.interactArea .fn label{float:left;position:relative;color:#909090;margin-right:2px;}
+.interactArea .fn em.stat{float:left;font-style:normal;font-size:12px;color:#555;}
+.interactArea .fn span.playstat{padding-right:0;}
+.interactArea .fn strong.stat{position:relative;float:left;font-size:18px;color:#808080;*top:-1px;}
+.interactArea .fn em.short{font-size:12px;font-style:normal;font-weight:normal;color:#909090;margin-left:2px;position:relative;top:-2px;}
+.interactArea .fn .return,
+.interactArea .fn .return *,
+.interactArea .fn .return em.stat{color:#909090;}
+.interactArea .fn2nd{float:left;padding:0 1px;height:28px;margin:0 -1px;overflow:hidden;_padding:0;_margin:0;}
+.interactArea .fn_hover .f2nd{padding:0;border:1px solid #c9c9c9;border-width:0 1px;}
+.interactArea .fn .ico_up{float:left;position:relative;top:0px;display:inline-block;*display:inline;*zoom:1;width:24px;height:24px;background:url(./ydyimg/bg_fn.png) no-repeat 0 -60px;margin-right:2px;}
+.interactArea .fn .ico_down{float:left;position:relative;top:4px;display:inline-block;*display:inline;*zoom:1;width:24px;height:24px;background:url(./ydyimg/bg_fn.png) no-repeat 0 -90px;margin-right:2px;}
+.interactArea .fn .ico_dimcode{display:inline-block;*display:inline;*zoom:1;width:20px;height:20px;background:url(./ydyimg/bg_fn.png) no-repeat 0 -330px;margin-top:4px;}
+.interactArea .ico__info{position:absolute;top:8px;margin-left:4px;}
+.interactArea .fn_return .ico_up{margin-right:2px;}
+.interactArea .fn_return .ico_down{margin-left:2px;margin-right:0;}
+.interactArea .fn_return .stat{margin-right:2px;}
+

@@ -1,0 +1,19 @@
+/*media list*/
+.mlist{width:900px;float:center;}
+
+.mlist ul#itemContainer { list-style: none; padding:0; margin: 5px 0;  }
+.mlist ul#itemContainer li {float:left; display: inline-block; margin:10px 5px; zoom: 1; *display:inline; }
+
+.v{text-align:left;float:left;width: 200px;height:110px;margin:5px;position:relative;}
+
+.v .v-thumb{display:block;width:200px;height:110px;overflow: hidden;position: relative;}
+.v .v-link{width: 200px;height: 110px;z-index: 4;position: absolute;top: 0;left: 0;}
+.v .v-link a{display: block;height: 100%;}
+.v .v-title{position:relative;line-height:20px;left:5px;bottom:25px;z-index:3;}
+.v .v-meta {overflow:hidden;background:#000;background-color:rgba(0,0,0,0.7);background:#000\7; filter:alpha(opacity=70);zoom:1;z-index:-1;position:absolute;left:0;bottom:0;width:100%;padding-top: 30px;}
+.v .v-meta .v-meta-title, .v .v-meta .v-meta-entry{margin:5px;height: 20px;line-height: 20px;word-break: break-all;word-wrap: break-word;overflow:hidden;}
+.v a{text-decoration: none;color: rgb(203,100,243);}
+.ico-user,.ico-statplay{background: transparent url("./ydyimg/ico.png") no-repeat;display: inline-block;vertical-align: middle;width: 16px;height: 16px;}
+.ico-statplay{background-position: -30px 0;}
+.v *{color:white;}
+.btn-small{background-color:#2c8ce0;padding: 0 9px;font-size: 14px;-webkit-border-radius: 2px;border-radius: 2px;display: inline-block;line-height: 20px;}

@@ -1,0 +1,39 @@
+<?php /* Smarty version Smarty-3.1.12, created on 2013-06-09 15:38:30
+         compiled from "/www/yiya/admin/Smarty/templates/admin.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:123411669251b42c41370c94-97244251%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'b19d62b2926ba2d9be5fc0c6bd21b3a82f6d89a2' => 
+    array (
+      0 => '/www/yiya/admin/Smarty/templates/admin.tpl',
+      1 => 1370763482,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '123411669251b42c41370c94-97244251',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_51b42c413a9ec4_34139794',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51b42c413a9ec4_34139794')) {function content_51b42c413a9ec4_34139794($_smarty_tpl) {?><head>
+  <style type="text/css" media="all">
+  .admincon{
+  
+  }
+  </style>
+</head>
+
+
+
+<div class=admincon>
+  welcome:<?php echo $_SESSION['name'];?>
+
+
+
+
+</div>
+<?php }} ?>
